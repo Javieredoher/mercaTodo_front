@@ -1,15 +1,15 @@
 //const API_URL='https://jsonplaceholder.typicode.com/users/5';
 //const API_URL='https://cryptic-headland-77186.herokuapp.com/productos/25';
-const API_URL='https://safe-river-82717.herokuapp.com/product/55';
+const API_URL='https://safe-river-82717.herokuapp.com/';
 //const API_PRODUCTOS ='https://safe-river-82717.herokuapp.com/'
 
 
 export const listCompanies = async() =>{
-    return await fetch(API_URL);
+    return await fetch(`${API_URL}product/`);
 };
 
 export const getCompany = async(companyId) =>{
-    return await fetch('${API_UR}${companyId}');
+    return await fetch(`${API_URL}product/${companyId}`);
 
 };
     
@@ -31,11 +31,12 @@ export const registerCompany = async (newCompany) =>{
 };
 
 
-export const deleteCompany = async (companyId) =>{
-    return await fetch('${API_UR}${companyId}',{
+export const deleteCompany = async (prod_Id) =>{
+    
+    return await fetch(`${API_URL}product/${prod_Id}`,{
         method:'DELETE',
         
     });
-
+    
 };
    

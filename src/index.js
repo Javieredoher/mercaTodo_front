@@ -16,11 +16,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
   <Navbar/> 
     <div className="container my-4">
       <Switch>
-        <Route exact path="/" component={CompanyList}/>
+       <Route exact path="/" component={CompanyList} />
        <Route path="/CompanyForm" component={CompanyForm}/>
        <Route path="/updateCompany/:id" component={CompanyForm}/>
       </Switch>
