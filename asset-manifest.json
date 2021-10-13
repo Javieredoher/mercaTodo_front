@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mercaTodo_front/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/mercaTodo_front/static/js/main.62d65529.chunk.js",
-    "main.js.map": "/mercaTodo_front/static/js/main.62d65529.chunk.js.map",
+    "main.js": "/mercaTodo_front/static/js/main.f79648a3.chunk.js",
+    "main.js.map": "/mercaTodo_front/static/js/main.f79648a3.chunk.js.map",
     "runtime-main.js": "/mercaTodo_front/static/js/runtime-main.84382bc5.js",
     "runtime-main.js.map": "/mercaTodo_front/static/js/runtime-main.84382bc5.js.map",
     "static/css/2.0a9ec390.chunk.css": "/mercaTodo_front/static/css/2.0a9ec390.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.9cf8a773.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.62d65529.chunk.js"
+    "static/js/main.f79648a3.chunk.js"
   ]
 }
