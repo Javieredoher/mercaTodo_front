@@ -1,15 +1,7 @@
-const API_URL='https://jsonplaceholder.typicode.com/users/3';
-const API='https://safe-river-82717.herokuapp.com/product';
-
-
-
-export const getProducts=async()=>{
-    const res=await fetch (API)
-    const data=await res.json()
-    console.log(data)
-    return data
-}
-
+//const API_URL='https://jsonplaceholder.typicode.com/users/5';
+//const API_URL='https://cryptic-headland-77186.herokuapp.com/productos/25';
+const API_URL='https://safe-river-82717.herokuapp.com/product/55';
+//const API_PRODUCTOS ='https://safe-river-82717.herokuapp.com/'
 
 
 export const listCompanies = async() =>{

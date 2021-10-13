@@ -12,21 +12,6 @@ import CompanyList from './components/company/CompanyList';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
-console.log("hola desde index.js")
-
-
-
-const API='https://safe-river-82717.herokuapp.com/product/';
-
-const getProducts=async()=>{
-    const res=await fetch (API)
-    const data=await res.json()
-    console.log(data)
-    return data
-}
-
-getProducts()
-
 
 
 
